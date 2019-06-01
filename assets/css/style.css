@@ -3,15 +3,6 @@
     background-color: lightgray;
   }
   
-  .index {
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 1000px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.25em;
-  }
-  
   header {
     background-color: white;
     font-family: Georgia;
@@ -21,21 +12,13 @@
     border: 1px solid teal;
   }
 
-  #link1 {
+  .link {
     float: right;
     font-family: Arial;
     color: grey;
     text-decoration: underline;
     background-color: white;
     }
-
-  #link2 {
-    float: right;
-    font-family: Arial;
-    color: grey;
-    text-decoration: underline;
-    background-color: white;
-}
   
   main {
     background-color: white;
@@ -56,10 +39,10 @@
       font-family: Arial;
       background-color: white;
       margin-left: 10px;
-      text-align: justify
+      text-align: justify;
   }
 
-  #contact {
+  .contact {
       background-color: white;
       color: grey;
       font-family: Arial;
