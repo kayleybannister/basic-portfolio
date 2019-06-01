@@ -12,6 +12,19 @@
     border: 1px solid teal;
   }
 
+  #left {
+      margin: 5px;
+      padding: 2%;
+      float: left;
+      width: 15%;
+      color: #fff;
+      background: #30948D;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 500px;
+    }
+
   .link {
     float: right;
     font-family: Arial;
@@ -59,6 +72,20 @@
     margin: 5 auto;
     border-top: 10px solid teal;
   }
+
+  .contactHead  {
+    text-align: center;
+  }
+
+  .contactList {
+    background-color: #fff;
+  }
+
+  .portfolio {
+    background-color: white;
+    color: grey;
+    font-family: Arial;
+}
 
   .clearfix::after {
     content: " ";
