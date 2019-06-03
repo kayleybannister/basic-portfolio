@@ -59,6 +59,36 @@
       text-align: justify;
   }
 
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid grey; 
+    width: 80%;
+  }
+
+  input[type=submit]:hover {
+    background-color: white;
+    border: #fff 1px solid;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 1px;
+  }
+
+  .column {
+    float: left;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
   .contact {
       background-color: white;
       color: grey;
@@ -96,5 +126,5 @@
   .clearfix::after {
     content: " ";
     display: block;
-    clear: both;
+    clear: both;  
   }

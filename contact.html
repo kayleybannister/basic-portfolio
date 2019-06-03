@@ -13,7 +13,7 @@
  
     <body>
         
-        <header class="contactHead">Kayley's Contact Info
+        <header class="contactHead">
 
             <!--used the section tag to insert a new box for my name while still being displayed in the header tag-->
             <section id="left">Kayley Bannister</section>
@@ -26,14 +26,41 @@
         </header>
 
     <div>
-        <main class="contact">Contact:
+        <main class="contact">Contact
             <br>
             <hr>
 
-            <ul class="contactList">
-                <li class="contactList">Email: <a class="contactList" href="mailto:kayley.bannister@gmail.com" target="_blank">kayley.bannister@gmail.com</a></li>
-                <li class="contactList">Cell: 706.401.9875</li>
-            </ul>
+            <div class="container">
+
+                <div style="text-align:center">
+                </div>
+                    
+                <div class="row">
+                    <div class="column">
+                    </div>
+                    <div class="column">
+
+                          <label for="fname">Name</label>
+                          <br>
+                          <input type="text" id="fname" name="firstname" placeholder="John Smith"> 
+                          <br>
+                          <br>
+                          <label for="lname">Email Address</label>
+                          <br>
+                          <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                          <br>
+                          <br>
+                          </select>
+                          <label for="subject">Message</label> 
+                          <br>
+                          <textarea id="subject" name="subject"></textarea>
+                          <br>
+                          <br>
+                          <input type="submit" value="Submit">
+
+                    </div>
+                    </div>
+                </div>
 
         </main>
     
