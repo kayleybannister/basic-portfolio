@@ -138,6 +138,12 @@
     font-family: Arial;
   }
 
+  .galleryText {
+    width: fit-content;
+    background-color: #4aaaa5;
+    color: #ffffff
+  }
+
   /**this is for the grey footer on every page that shows Copyright(R) */
   footer {
     background-color: #666666;
