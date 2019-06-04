@@ -139,9 +139,9 @@
   }
 
   .galleryText {
-    width: fit-content;
-    background-color: #4aaaa5;
-    color: #ffffff
+    text-align: center;
+    background-color: teal;
+    color: white;
   }
 
   /**this is for the grey footer on every page that shows Copyright(R) */
