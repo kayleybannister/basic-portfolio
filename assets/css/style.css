@@ -2,6 +2,12 @@
     box-sizing: border-box;
     background-color: lightgray;
   }
+
+  p {
+    background-color: #fff;
+    color: gray;
+    text-align: justify;
+  }
   
   /** this is the header for every page */
   header {
@@ -32,9 +38,12 @@
     float: right;
     font-family: Arial;
     color: grey;
-    text-decoration: underline;
     background-color: white;
-    }
+    font-size: 1.4rem;
+    margin: 10px;
+    line-height: 2;
+    text-decoration: none;
+}
   
   /** this formats the main section in each html file*/
     main {
@@ -95,6 +104,20 @@
       font-family: Arial;
   }
 
+  #imgDiv {
+    width: 215px;
+    float: left;
+    background: white;
+}
+
+  /** my tutor helped me with this so that my paragraph could wrap around my image*/
+  #aboutMeP {
+    float: left;
+    display: contents;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+  }
+  
   .contactHead  {
     text-align: center;
   }
@@ -127,4 +150,4 @@
     content: " ";
     display: block;
     clear: both;  
-  }
+  } */
